@@ -129,3 +129,58 @@ body{
     text-decoration-line: underline;
     text-align: center;
 }
+.three {
+    text-align: center;
+    margin-top: 200px;
+}
+.section-three{
+    margin-top: 100px;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 700pxpx;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sign-head{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.off{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sign-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    max-width: 500px;
+}
+.section-four{
+    align-items: center;
+}
+.insta{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.insta-text
