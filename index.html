@@ -7,8 +7,297 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+<style>
+    header{
+    background: rgba(229, 84, 115, 0.10);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-header{
+    color: #272727;
+    font-family: Lato;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 750px;
+}
+.btn-primary{
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-body{
+    margin-top: 32px;
+    font-weight: 100;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    max-width: 500px;
+}
+.banner-pic{
+    width: 500px;
+    height: 700px;
+    flex-shrink: 0;
+}
 
-<link rel="stylesheet" href="C:\my assignment\styles.css">
+/*main related style*/
+.owr{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.owr-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 24px auto 48px auto;
+    max-width: 590px;
+}
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0 120px 0 120px;
+    padding: 5px;
+}
+.rectangle-one{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 5px;
+}
+.img-one{
+    width: 310px;
+    height: 419px;
+    flex-shrink: 0;
+    padding: 120px 76px 1px 76px;
+}
+.rectangle-two{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 5px;
+}
+.img-two{
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    border: none;
+    padding: 120px 76px 50px 76px;
+}
+.rectangle-three{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin: 5px;
+}
+.img-three{
+    width: 314px;
+    height: 417px;
+    flex-shrink: 0;
+    border: none;
+    padding: 120px 76px 1px 76px;
+}
+.section-two-text{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+    text-align: center;
+}
+.three {
+    text-align: center;
+    margin-top: 200px;
+}
+.section-three{
+    margin-top: 100px;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 700pxpx;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sign-head{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.off{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sign-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    max-width: 500px;
+}
+.section-four{
+    align-items: center;
+}
+.insta{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.insta-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 594px;
+    margin: auto;
+}
+.section-five{
+    display: flex;
+    width: 342px;
+}
+.secimg{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    margin: 12px;
+}
+.section-six{
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('Rectangle\ 9.png');
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+}
+.last-text{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.lastp{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.email{
+    width: 600px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    align-items: center;
+
+}
+.-divlas{
+    align-items: center;
+    padding-left: 300px;
+    margin-left: 300px;
+}
+.footer{
+    background: #111010;
+    width: 1450px;
+    height: 449px;
+    flex-shrink: 0;
+    text-align: center;
+    padding-top: 120px;
+
+}
+.foottex{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.footcop{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shop{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Flower{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+</style>
 </head>
 <body>
     <header>
